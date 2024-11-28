@@ -8,7 +8,7 @@ Add dependeny in pom.xml:
 <dependency>
   <groupId>nl.marcelmaatkamp</groupId>
   <artifactId>stringformatter</artifactId>
-  <version>${{  github.ref_name }}</version>
+  <version>v1.0.0</version>
 </dependency>
 ```
 
