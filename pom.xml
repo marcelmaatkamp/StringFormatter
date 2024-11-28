@@ -6,7 +6,7 @@
 
     <groupId>nl.marcelmaatkamp</groupId>
     <artifactId>stringformatter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${env.GITHUB_REF_NAME}</version>
     <name>StringFormatter</name>
     <description>StringFormatter</description>
     <dependencies>
