@@ -1,6 +1,17 @@
 # StringFormatter
 
-# install
+This java library substitutes named and postional arguments in a string like Python:
+
+```python
+txt = "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+```
+
+```java
+var txt = nl.maatkamp.stringformatter.StringFormatter.of(
+  "My name is {fname}, I'm {age}").arg("fname", "John").arg("age", "36").format();
+``` 
+
+# Install
 
 Add dependeny in pom.xml:
 
@@ -12,7 +23,7 @@ Add dependeny in pom.xml:
 </dependency>
 ```
 
-## usage
+## Usage
 
 ```java
 String result = nl.maatkamp.stringformatter.StringFormatter.of(
