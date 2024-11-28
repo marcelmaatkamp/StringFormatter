@@ -97,6 +97,6 @@
                     <failsOnError>true</failsOnError>
                 </configuration>
             </plugin>
-        </plugins>>
+        </plugins>
     </build>
 </project>
